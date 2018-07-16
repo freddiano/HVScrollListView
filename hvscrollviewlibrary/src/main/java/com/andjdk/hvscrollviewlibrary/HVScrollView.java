@@ -346,7 +346,7 @@ public class HVScrollView extends RelativeLayout {
             mMovableListColumnsWidth[i] = dip2px(context, mMoveViewWidth);
         }
         mFixLeftListColumnsWidth = new int[]{dip2px(context, mFixViewWidth)};
-        mFixLeftListColumnsText = new String[]{"名称"};
+        mFixLeftListColumnsText = new String[]{""};
     }
 
 
